@@ -1,18 +1,28 @@
 body{
-    background-color: rgb(141, 81, 181);
+    color: goldenrod;
+    background-color: #2e2e2e;
     padding-left: 30%;
     padding-top: 3%;
 }
 h1{
-    font-family: 'Press Start 2P', cursive;
-    font-size: 50px;
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: center;
+    font-size: 220%;
     margin-left: -25%;
 }
 #art{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 6%;
     width: 85%;
-    background-color: red;
-    padding: 1% 5% 1% 5% ;
+    color: goldenrod;
+    text-emphasis: center;
 
+}
+input{
+    background-color: white;
+    outline: none;
+    border: none;
 }
 #rows{
     margin-left: 8%;
@@ -33,11 +43,14 @@ button{
     border: none;
 }
 #bnt1{
-    margin-left: 21.5%; 
+    margin-left: 25%; 
 }
 #smart{
     margin-left: -43%;
-    font-size: 120%;
+    font-size: 100%;
+}
+#my-table{
+    margin-left: -40%;
 }
 /* body{
     background-color: #aaa;
@@ -52,7 +65,7 @@ h1{
     } */
     tr, td{
     border: 1px  solid black;
-    padding: 10px;
+    padding: 0.5em;
     background-color: white;
     }
     /* input[type="number"]{
@@ -94,3 +107,42 @@ h1{
     #smart{
         font-size: 120%;
             } */
+
+@media screen and (max-width: 500px){
+    body{
+        color: goldenrod;
+        background-color: #2e2e2e;
+        padding-left: 10%;
+        padding-top: 3%;
+    }
+    h1{
+        font-size: 120%;
+    }
+    #art{
+        /* width: 68%; */
+        margin-left: -1%;
+        height: 5%;
+        text-align: center;
+    
+    }
+    #rows{
+        margin-left: 11%;
+    }
+    #color{
+        margin-left: 28%;
+        margin-top: 1%;
+        width: 43%;
+    }
+    #bnt1{
+        margin-left: 48%; 
+    }
+    #smart{
+        margin-top: 4%;
+        margin-left: -12%;
+        font-size: 80%;
+    }
+    #my-table{
+        margin-left: -10%;
+    }
+
+}
